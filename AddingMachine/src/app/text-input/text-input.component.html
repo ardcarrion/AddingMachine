@@ -1,8 +1,8 @@
 
 <hr />
-<textarea id="output">{{output}}</textarea>
+<textarea id="output" readonly>{{output}}</textarea>
 <hr />
-<input id="in" #in type="text" placeholder="> ">
+<input id="in" #in type="text" value="> ">
 <button type="button" (click)="calculate(in.value); in.value='> '">Calculate</button>
 
 
