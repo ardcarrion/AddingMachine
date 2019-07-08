@@ -3,6 +3,6 @@
 <textarea id="output">{{output}}</textarea>
 <hr />
 <input id="in" #in type="text" placeholder="> ">
-<button type="button" (click)="calculate(in.value)">Calculate</button>
+<button type="button" (click)="calculate(in.value); in.value='> '">Calculate</button>
 
 
